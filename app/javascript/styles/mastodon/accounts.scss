@@ -216,8 +216,8 @@
   display: inline-flex;
   padding: 4px;
   padding-inline-end: 8px;
-  border: 1px solid #f5f7f7;;
-  color: #f7f9f9;;
+  border: 1px solid $highlight-text-color;
+  color: $highlight-text-color;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.5px;
