@@ -232,21 +232,21 @@ body.theme-default.layout-single-column {
   --m-logo: url('../images/theme/m_logo_light.png');
   --color-column: rgba(255, 255, 255, 0.4);
 
-  --color-brand-mastodon: #be2a4d;
-  --color-brand-mastodon-links: #df98a2;
-  --color-accent-dark-50: #be2a4d80;
+  --color-brand-mastodon: #dda518;
+  --color-brand-mastodon-links: #dfcb98;
+  --color-accent-dark-50: #bea22a80;
 
-  --color-accent:#df98a2;
-  --color-accent-dark: #be2a4d;
+  --color-accent:#dfc998;
+  --color-accent-dark: #ecad11;
 
-  --color-border: #e9dee0;
-  --color-dim: #c16c80;
+  --color-border: rgba(233, 223, 225, 0);
+  --color-dim: #b98209;
 
-  --color-mud: #f0dee2;
-  --color-light-purple: #df98a2;
+  --color-mud: #f0ebde;
+  --color-light-purple: #dfcd98;
   
-  --color-bg-compose-form: rgb(192 108 128 / .2);
-  --color-bg-compose-form-focus: rgb(192 108 128/ .4);
+  --color-bg-compose-form: rgba(193, 171, 108, 0.2);
+  --color-bg-compose-form-focus: rgba(193, 174, 108, 0.4);
 
 
   --color-bg: #fff;
@@ -269,9 +269,9 @@ body.theme-default.layout-single-column {
   --color-modal-overlay: #6a5b8366;
   --color-dark: #f7f9f9;
   --color-thread-line: #e1e8ed;
-  --color-topaz: #8899a6;
+  --color-topaz: #a69c88;
 
-  --color-dark-electric-blue: #9088a6;
+  --color-dark-electric-blue: #a6a088;
   --color-bg-75: #ffffffbf;
   --color-accent: var(--color-accent-dark);
   --color-ghost-button-text: var(--color-accent-dark);
@@ -419,12 +419,12 @@ body.layout-single-column {
 }
 
 .layout-single-column .status-link.mention:not(.hashtag) {
-  color: var(--color-mention);
+  color: #aab2c7;
 }
 
 /* stylelint-disable-next-line */
 .layout-single-column .status-link.mention:not(.hashtag):not(.mention) {
-  color: var(--color-link);
+  color: #aab2c7;
 }
 
 /* Logo */
@@ -1681,7 +1681,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 }
 
 .layout-single-column .icon-button:hover {
-  color: var(--color-accent);
+  color: var#f7f9f9;
 }
 
 /* Other general buttons */
@@ -2093,7 +2093,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 .layout-single-column .account__section-headline button.active::after,
 .layout-single-column .notification__filter-bar a.active::after,
 .layout-single-column .notification__filter-bar button.active::after {
-  background-color: var(--color-accent);
+  background-color: #f7f9f9;
   border: 0;
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
@@ -2143,7 +2143,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 }
 
 .layout-single-column .notification .fa.fa-user-plus:not(.fa-link)::before {
-  color: var(--color-accent-dark);
+  color: #f7f9f9;
   font-size: 20px;
 }
 
@@ -2903,9 +2903,9 @@ body.embed .button.logo-button:hover,
 .layout-single-column .ui__header__links .button:focus,
 .layout-single-column .compose-form__publish-button-wrapper button:hover,
 .layout-single-column .compose-form__publish-button-wrapper button:focus {
-  background-color: var(--color-brand-mastodon-links);
-  border-color: var(--color-brand-mastodon-links);
-  color: var(--color-button-text);
+  background-color: #f7f9f9;
+  border-color: #f7f9f9;
+  color: #181a29;;
 }
 
 /* Tertiary button */
