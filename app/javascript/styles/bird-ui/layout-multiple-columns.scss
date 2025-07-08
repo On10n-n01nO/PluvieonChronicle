@@ -209,7 +209,7 @@ body.theme-bird-ui-light.layout-multiple-columns {
   --color-border: rgba(233, 223, 225, 0);
   --color-dim: #b1861d;
 
-  --color-mud: #f0dee2;
+  --color-mud: #f0ecde;
   --color-light-purple: #dfc598;
 
   --color-bg-compose-form: rgba(193, 176, 108, 0.2);
@@ -2205,8 +2205,8 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 
 .layout-multiple-columns input.setting-text,
 .layout-multiple-columns .search__input {
-  background-color: var(--color-mud);
-  border-color: var(--color-mud);
+  background-color: #f0ecde;
+  border-color: #f0ebde;
   border-radius: 32px;
   color: var(--color-dim);
   font-size: var(--font-size);
