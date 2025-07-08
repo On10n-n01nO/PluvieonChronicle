@@ -218,19 +218,19 @@ body.theme-bird-ui-light.layout-single-column {
   --active-header-radial-gradient: radial-gradient(ellipse,rgb(239, 154, 154 / 25%) 0,rgb(255, 0 ,81 / 0%) 60%);
 
   
-  --color-brand-mastodon: #be2a4d;
-  --color-brand-mastodon-links: #df98a2;
-  --color-accent-dark-50: #be2a4d80;
+  --color-brand-mastodon: #c6a41c;
+  --color-brand-mastodon-links: #dfcd98;
+  --color-accent-dark-50: #bea22a80;
 
-  --color-accent:#df98a2;
-  --color-accent-dark: #be2a4d;
+  --color-accent:#dfcd98;
+  --color-accent-dark: #9e7a2c;
 
 
   --color-bg: #fff;
   --color-fg: #000;
 
-  --color-border: #e9dee0;
-  --color-dim: #c16c80;
+  --color-border: rgba(233, 223, 225, 0);
+  --color-dim: #b1861d;
   
 
   --color-green: #17bf63;
@@ -254,15 +254,15 @@ body.theme-bird-ui-light.layout-single-column {
   --color-thread-line: #e1e8ed;
   --color-topaz: #8899a6;
 
-  --color-light-purple: #df98a2;
+  --color-light-purple: #dfcf98;
   
   --color-dark-electric-blue: #9088a6;
   --color-bg-75: #ffffffbf;
   --color-accent: var(--color-accent-dark);
   --color-ghost-button-text: var(--color-accent-dark);
 
-  --color-bg-compose-form: rgb(192 108 128 / .2);
-  --color-bg-compose-form-focus: rgb(192 108 128/ .4);
+  --color-bg-compose-form: rgba(193, 176, 108, 0.2);
+  --color-bg-compose-form-focus: rgba(193, 176, 108, 0.4);
 
   --color-hashtag: var(--color-accent-dark);
   --color-mention: var(--color-accent-dark);
